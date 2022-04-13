@@ -548,6 +548,10 @@ body {
     .circle-box {
       width: 50%;
     }
+
+    #banner-area {
+      display: none;
+    }
   
     #team-area .col-md-3 {
       width: 50%;
