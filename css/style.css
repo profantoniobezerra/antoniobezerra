@@ -1,11 +1,27 @@
 @charset "UTF-8";
 
 /* Color Theme Swatches in Hex */
-.Chloe-&-Caitlin-2021-1-hex { color: #54458C; }
-.Chloe-&-Caitlin-2021-2-hex { color: #8D92F2; }
-.Chloe-&-Caitlin-2021-3-hex { color: #0D1C26; }
-.Chloe-&-Caitlin-2021-4-hex { color: #84B8D9; }
-.Chloe-&-Caitlin-2021-5-hex { color: #8C6E68; }
+@Defiance-Invest-◎-AI-Driven-videos-1-hex: #210140;
+@Defiance-Invest-◎-AI-Driven-videos-2-hex: #BCB4D9;
+@Defiance-Invest-◎-AI-Driven-videos-3-hex: #222CF2;
+@Defiance-Invest-◎-AI-Driven-videos-4-hex: #052DA6;
+@Defiance-Invest-◎-AI-Driven-videos-5-hex: #D9D059;
+
+/* Color Theme Swatches in RGBA */
+@Defiance-Invest-◎-AI-Driven-videos-1-rgba: rgba(32, 1, 63, 1);
+@Defiance-Invest-◎-AI-Driven-videos-2-rgba: rgba(187, 179, 216, 1);
+@Defiance-Invest-◎-AI-Driven-videos-3-rgba: rgba(33, 44, 242, 1);
+@Defiance-Invest-◎-AI-Driven-videos-4-rgba: rgba(4, 45, 165, 1);
+@Defiance-Invest-◎-AI-Driven-videos-5-rgba: rgba(216, 208, 88, 1);
+
+/* Color Theme Swatches in HSLA */
+@Defiance-Invest-◎-AI-Driven-videos-1-hsla: hsla(270, 96, 12, 1);
+@Defiance-Invest-◎-AI-Driven-videos-2-hsla: hsla(253, 32, 77, 1);
+@Defiance-Invest-◎-AI-Driven-videos-3-hsla: hsla(236, 89, 54, 1);
+@Defiance-Invest-◎-AI-Driven-videos-4-hsla: hsla(225, 94, 33, 1);
+@Defiance-Invest-◎-AI-Driven-videos-5-hsla: hsla(56, 62, 59, 1);
+
+
 
 :root{
   --cor1:#54458C;
