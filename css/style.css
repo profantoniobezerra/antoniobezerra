@@ -1,3 +1,20 @@
+@charset "UTF-8";
+
+/* Color Theme Swatches in Hex */
+.Chloe-&-Caitlin-2021-1-hex { color: #54458C; }
+.Chloe-&-Caitlin-2021-2-hex { color: #8D92F2; }
+.Chloe-&-Caitlin-2021-3-hex { color: #0D1C26; }
+.Chloe-&-Caitlin-2021-4-hex { color: #84B8D9; }
+.Chloe-&-Caitlin-2021-5-hex { color: #8C6E68; }
+
+:root{
+  --cor1:#54458C;
+  --cor2:#8D92F2;
+  --cor3:#0D1C26;
+  --cor4:#84B8D9;
+  --cor5:#8C6E68;
+}
+
 /* Gerais */
 body{
     font-family: 'Roboto', sans-serif;
@@ -11,14 +28,14 @@ body{
 }
 
 p, li {
-    color: #444;
+    color: #0D1C26;
     font-size: 14px;
 }
 
 /* Barra de navegaçaõ*/
 
 header, .navbar {
-    background-color: #353041;
+    background-color: #54458C;
 }
 
 #nav-container {
@@ -73,7 +90,7 @@ header, .navbar {
 }
 
 .main-btn {
-    background-color: #65d9f963;
+    background-color: #84B8D9;
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
@@ -88,10 +105,10 @@ header, .navbar {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.562);
     background-color: transparent;
-    border-color: #65d9f973;
+    border-color: #84B8D9;
 }
 .carousel-indicators .active {
-    background-color: #65DAF9;
+    background-color: #84B8D9;
 }
 
 
@@ -121,7 +138,7 @@ header, .navbar {
 
 .about-title {
     font-size: 17px;
-    color: #444;
+    color: #54458C;
     text-transform: uppercase;
     font-weight: bold;
     
@@ -134,7 +151,7 @@ header, .navbar {
     line-height: 30px;
 }
 #about-list i {
-    color: #65DAF9;
+    color: #8C6E68;
     margin-right: 15px;
 }
 
@@ -161,7 +178,7 @@ header, .navbar {
 }
 
 .service-box:hover > i, .service-box:hover > h4 {
-    color: #65DAF9;
+    color: #8C6E68;
 }
 
 /* banner */
@@ -227,8 +244,8 @@ header, .navbar {
 }
 
 #apply-btn:hover {
-  border-color: #65DAF9;
-  background-color: #65DAF9;
+  border-color: #8C6E68;
+  background-color: #8C6E68;
 }
  /* Portfólio */
   
@@ -243,8 +260,8 @@ header, .navbar {
   }
   
   #portfolio-area .filter-btn {
-    color: #444;
-    border: 1px solid #444;
+    color: #8C6E68;
+    border: 1px solid #8C6E68;
     background-color: transparent;
     text-transform: none;
     margin: 0 15px;
@@ -257,8 +274,8 @@ header, .navbar {
   
   #portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover {
     color: #FFF;
-    border: 1px solid #65DAF9;
-    background-color: #65DAF9;
+    border: 1px solid #8D92F2;
+    background-color: #8D92F2;
   }
   
   /* News Letter */
@@ -277,7 +294,7 @@ header, .navbar {
     border-radius: 0;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    border: 1px solid #65DAF9;
+    border: 1px solid #8C6E68;
     display: inline;
     box-sizing: border-box;
     width: 40%;
@@ -287,8 +304,8 @@ header, .navbar {
   #news-btn {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    border: 1px solid #65DAF9;
-    background-color: #65DAF9;
+    border: 1px solid #8C6E68;
+    background-color: #8C6E68;
     color: #FFF;
     text-transform: uppercase;
     height: 40px;
@@ -301,13 +318,13 @@ header, .navbar {
   
   #news-btn:hover {
     background-color: #FFF;
-    color: #65DAF9;
+    color: #8C6E68;
   }
   
   /* Call To Action */
   
   #call-area {
-    background-color: #65DAF9;
+    background-color: #0D1C26;
     text-transform: uppercase;
   }
   
@@ -334,7 +351,7 @@ header, .navbar {
   
   #call-area #call-btn {
     background-color: #FFF;
-    color: #65DAF9;
+    color: #8C6E68;
     font-weight: bold;
     margin-left: 30px;
     font-size: 20px;
@@ -352,12 +369,12 @@ header, .navbar {
   .contact-box {
     padding-bottom: 50px;
     margin-bottom: 50px;
-    border-bottom: 1px solid #3EC1D5;
+    border-bottom: 1px solid #8C6E68;
   }
   
   .contact-box i {
-    color: #444;
-    border: solid 1px #444;
+    color: #8D92F2;
+    border: solid 1px #8D92F2;
     border-radius: 50%;
     width: 55px;
     height: 55px;
@@ -372,7 +389,7 @@ header, .navbar {
   
   .contact-tile {
     font-weight: bold;
-    color: #3EC1D5;
+    color: #0D1C26;
   }
   
   #msg-box p {
@@ -390,7 +407,7 @@ header, .navbar {
   }
   
   #contact-form .main-btn:hover {
-    color: #3EC1D5;
+    color: #0D1C26;
   }
   
   /* Copy */
@@ -415,7 +432,7 @@ header, .navbar {
   
   #copy-area .container a:hover {
     text-decoration: none;
-    color: #3EC1D5;
+    color: #8C6E68;
   }
   
   /* responsive */
