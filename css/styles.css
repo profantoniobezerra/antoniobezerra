@@ -193,7 +193,10 @@ header, .navbar {
 .card-body {
   text-align: center;
 }
-
+#banner-area {
+  text-align: center;
+  padding: 10px;
+}
 /* Trabalhe conosco */
 
 #apply-area {
@@ -210,7 +213,7 @@ header, .navbar {
 }
 
 #company-img {
-  background-image: url('../img/empresa.jpg');
+  background-image: url('img/didiobun.jpg');
   background-size: cover;
   height: 100%;
 }
@@ -469,6 +472,10 @@ header, .navbar {
   #data-area p {
     font-size: 16px;
   }
+
+  #banner-area {
+    display: none;
+  }
   
   /* team */
   .card-title {
@@ -548,6 +555,10 @@ header, .navbar {
   /* data */
   .circle-box {
     width: 50%;
+  }
+
+  #banner-area {
+    display: flex;
   }
 
   #team-area .col-md-3 {
