@@ -1,3 +1,26 @@
+/* cores */
+/* Color Theme Swatches in Hex */
+.Defiance-Invest-◎-AI-Driven-videos-1-hex { color: #210140; }
+.Defiance-Invest-◎-AI-Driven-videos-2-hex { color: #BCB4D9; }
+.Defiance-Invest-◎-AI-Driven-videos-3-hex { color: #222CF2; }
+.Defiance-Invest-◎-AI-Driven-videos-4-hex { color: #052DA6; }
+.Defiance-Invest-◎-AI-Driven-videos-5-hex { color: #D9D059; }
+
+/* Color Theme Swatches in RGBA */
+.Defiance-Invest-◎-AI-Driven-videos-1-rgba { color: rgba(33, 1, 64, 1); }
+.Defiance-Invest-◎-AI-Driven-videos-2-rgba { color: rgba(188, 180, 217, 1); }
+.Defiance-Invest-◎-AI-Driven-videos-3-rgba { color: rgba(34, 44, 242, 1); }
+.Defiance-Invest-◎-AI-Driven-videos-4-rgba { color: rgba(5, 45, 166, 1); }
+.Defiance-Invest-◎-AI-Driven-videos-5-rgba { color: rgba(217, 208, 89, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Defiance-Invest-◎-AI-Driven-videos-1-hsla { color: hsla(270, 96, 12, 1); }
+.Defiance-Invest-◎-AI-Driven-videos-2-hsla { color: hsla(252, 32, 77, 1); }
+.Defiance-Invest-◎-AI-Driven-videos-3-hsla { color: hsla(237, 88, 54, 1); }
+.Defiance-Invest-◎-AI-Driven-videos-4-hsla { color: hsla(225, 94, 33, 1); }
+.Defiance-Invest-◎-AI-Driven-videos-5-hsla { color: hsla(55, 62, 60, 1); }
+
+
 /* Gerais */
 body {
     font-family: 'Roboto', sans-serif;
@@ -12,13 +35,13 @@ body {
   }
   
   p, li {
-    color: #444;
+    color: #222CF2;
     font-size: 14px;
   }
   
   /* Barra de navegação */
   header, .navbar {
-    background-color: #353D41;
+    background-color: #210140;
   }
   
   #nav-container {
